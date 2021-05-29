@@ -1,0 +1,15 @@
+--- setup.cfg.orig
++++ setup.cfg
+@@ -64,12 +64,6 @@
+ * = *.txt, *.rst, *.1
+ SCons.Tool.docbook = *.*
+ 
+-
+-[options.data_files]
+-. = build/doc/man/scons.1
+-    build/doc/man/scons-time.1
+-    build/doc/man/sconsign.1
+-
+ [sdist]
+     dist-dir=build/dist
+ 
