@@ -3,7 +3,4 @@
 patch -p1 < no-man-pages.patch
 
 python setup.py build
-python setup.py install \
-	--prefix=/usr \
-	--root="$1" \
-	--optimize=1
+python setup.py install --prefix=/usr --root="$1" --optimize=1
