@@ -1,0 +1,14 @@
+gcc
+
+python
+scons make
+pkgconf make
+libX11
+libXcursor
+libXinerama
+libXi
+libXrandr
+mesa
+glu
+yasm
+libexecinfo
